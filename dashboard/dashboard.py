@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 st.set_page_config(page_title="Analisis Kualitas Udara di Wanshouxigong oleh M. Maireza")
-data = pd.read_csv('./data/PRSA_Data_Wanshouxigong_20130301-20170228.csv')
+data = pd.read_csv('./dashboard/main-data.csv')
 
 st.title('Air Quality Analysis Dashboard: Wanshouxigong Station')
 
