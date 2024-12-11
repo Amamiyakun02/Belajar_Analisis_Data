@@ -1,3 +1,4 @@
+from pyexpat import features
 
 import streamlit as st
 import numpy as np
@@ -25,11 +26,11 @@ Dasbor ini menyajikan analisis data kualitas udara, dengan perhatian khusus pada
 """)
 
 st.sidebar.header('Fitur Input User')
-
+features_data = ["month","day","hour"]
 selected_year = st.sidebar.selectbox('Pilih Tahun', list(data['year'].unique()))
 selected_month = st.sidebar.selectbox('Pilih Bulan', list(data['month'].unique()))
-
-data_filtered = data[(data['year'] == selected_year) & (data['month'] == selected_month)].copy()
+selected_feature = st.sidebar.selectbox('Pilih Fitur', features_data)
+data_filtered = data[(data['year'] == selected_year) & (data['month'] == selected_month) & (data[selected_feature])].copy()
 
 # Displaying data statistics
 st.subheader('Overview Data untuk Periode Terpilih')
