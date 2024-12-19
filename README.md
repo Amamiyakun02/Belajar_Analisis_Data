@@ -1,12 +1,13 @@
-# **Proyek Analisis Kualitas Udara: Stasiun Wanshouxigong**
+# **Proyek Analisis Kualitas Udara: Multi-Stasiun**
 
 ## Live Dashboard
 [https://maireza-airquality.streamlit.app/](https://maireza-airquality.streamlit.app/)
 
 ## Gambaran Umum Proyek
-Proyek ini merupakan tugas untuk kursus **"Belajar Analisis Data dengan Python"** di Dicoding. Fokus utama adalah menganalisis data kualitas udara, khususnya tingkat PM2.5, dari stasiun Wanshouxigong. Tujuannya adalah mengungkap tren, variasi musiman, serta dampak kondisi cuaca terhadap kualitas udara.
+Proyek ini merupakan tugas untuk kursus **"Belajar Analisis Data dengan Python"** di Dicoding. Fokus utama adalah menganalisis data kualitas udara, khususnya tingkat PM2.5, dari beberapa stasiun. Tujuannya adalah mengungkap tren, variasi musiman, serta dampak kondisi cuaca terhadap kualitas udara.
 
 ## Pengumpulan Tugas
+
 Proyek ini diajukan sebagai tugas akhir untuk kursus **"Belajar Analisis Data dengan Python"** yang diselenggarakan oleh Dicoding. Proyek ini menunjukkan penerapan teknik analisis data serta keterampilan visualisasi yang telah dipelajari selama kursus.
 
 ---
@@ -27,7 +28,7 @@ Proyek ini bertujuan untuk menganalisis data kualitas udara, khususnya konsentra
 ---
 
 ## **Sumber Data**
-Dataset yang digunakan dalam proyek ini mencakup pengukuran kualitas udara dari stasiun Wanshouxigong, dengan fokus pada tingkat PM2.5 dan data lingkungan terkait lainnya.
+Dataset yang digunakan dalam proyek ini mencakup pengukuran kualitas udara dari beberapa stasiun, dengan fokus pada tingkat PM2.5 dan data lingkungan terkait lainnya.
 
 ---
 
